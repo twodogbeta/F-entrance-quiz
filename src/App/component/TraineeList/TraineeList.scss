@@ -1,0 +1,12 @@
+.TraineeList {
+  .TraineeHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 12px;
+  }
+  .TraineeListDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+  }
+}
