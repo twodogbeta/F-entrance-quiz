@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import TraineeList from "../TraineeList/TraineeList";
+import GroupList from "../GroupList/GroupList";
 
 class MainContent extends Component {
 
 
     render() {
         return (
-       <TraineeList/>
+            <div>
+                <GroupList/>
+                <TraineeList/>
+            </div>
+
         )
     }
 }
