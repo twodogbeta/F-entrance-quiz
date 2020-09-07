@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.scss';
+import Header from "./component/Header/Header";
+
 
 class App extends Component {
   render() {
     return (
-      <div data-testid="app" className="App">
-        Hello World
-      </div>
+          <div className="App">
+             <Header/>
+          </div>
     );
   }
 }
