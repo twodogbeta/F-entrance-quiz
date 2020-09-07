@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './GroupList.scss';
-import Trainee from "../Trainee/Trainee";
 import Group from "../Group/Group";
 
 
@@ -35,10 +34,10 @@ class GroupList extends Component {
                     </div>
                 </div>
 
-                    <div className="Main">
-
+                    <div >
+                {this.state.groupt?.map((group,index) => (
+                    <Group key={index} group={group}  groupId={index} />  ))}
                     </div>
-
             </div>
 
         );

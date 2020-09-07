@@ -11,7 +11,7 @@ class Group extends Component {
                     <span>Team {groupId}</span>
                 </div>
                 <div className="groupMain">
-                    {this.props.group?.map((trainee) => (
+                    {this.props.group.traineeList.map((trainee) => (
                         <Trainee key={trainee.id} traineeId={trainee.id} traineeName={trainee.name} />
                     ))}
                 </div>
