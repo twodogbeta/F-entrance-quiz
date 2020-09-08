@@ -25,10 +25,10 @@ class GroupList extends Component {
             <div className="GroupList">
                 <div className="Header">
                     <div>
-                        <span>分组列表</span>
+                        <span className="headerLeft">分组列表</span>
                     </div>
                     <div>
-                        <button type="button" onClick={this.groupingHandleClick}>
+                        <button className="headerRight" type="button" onClick={this.groupingHandleClick}>
                             分组学员
                         </button>
                     </div>
